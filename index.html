@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Russo+One&display=swap" rel="stylesheet">
 
+    <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+
 </head>
 <body >
     <!-- Menu -->
@@ -48,28 +50,35 @@
                 <img class="-z-0" src="./images/bg4.jpg" />
             </div>
     
-            <div class="flex items-center relative w-3/4 mx-auto h-[54px] rounded-b-3xl p-4 bg-[url('/images/1church-banner.png')] bg-no-repeat bg-right bg-cover -mt-4 z-50">
-                <div class="flex items-center w-full h-full text-center gap-3 ml-8">
-                    <div class="flex items-center uppercase space-x-2">
-                        <div class="flex justify-center items-center p-1 w-8 h-8 border-2 border-black rounded-full">1</div>
-                        <div class="text-[10px] leading-[5px] font-bold">CHURCH</span>
+            <div class="flex items-center relative w-3/4 mx-auto h-[54px] md:h-[176px] rounded-b-3xl p-4 bg-[url('/images/1church-banner.svg')] bg-no-repeat bg-right bg-cover -mt-4 md:-mt-20 z-50">
+                <div class="flex items-center w-full h-full text-center gap-3 md:ml-12">
+                    <div class="flex items-center uppercase space-x-2 md:mr-8 md:ml-20">
+                        <div class="flex justify-center items-center p-1 w-8 md:w-[83px] h-8 md:h-[83px] border-2 border-black rounded-full">
+                            <span class="text-[19px] md:text-[68px]">1</span>
+                        </div>
+                        <div class="text-[10px] md:text-[35px] leading-[5px] font-bold">
+                            <span>CHURCH</span>
+                        </div>
                     </div>
                     <div class="flex items-center uppercase space-x-2">
-                        <div class="flex justify-center items-center p-1 w-8 h-8 border-2 border-black rounded-full">6</div>
-                        <div class="text-[10px] leading-[5px] font-bold">centers</span>
+                        <div class="flex justify-center items-center p-1 w-8 md:w-[83px] h-8 md:h-[83px] border-2 border-black rounded-full">
+                            <span class="text-[19px] md:text-[68px]">6</span>
+                        </div>
+                        <div class="text-[10px] md:text-[35px] leading-[5px] font-bold">
+                            <span>centers</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Latest Sermon -->
     <section id="latest-sermon">
-        <div class="w-3/4 mx-auto">
+        <div class="w-3/4 mx-auto md:mt-28">
             <h3 class="text-center text-[28px] leading-[29px] mt-16 font-bold md:text-5xl font-loversQuarrel">Watch the Latest Sermon</h3>
             <h4 class="text-center text-[12px] mt-0 md:text-xl">Nov 7 - In The Waiting by Pastor Arome Tokula</h4>
-            <div class="w-full h-[52] mt-6 bg-button rounded-none md:h-96">
-                <img class="w-full h-full object-cover" src="./images/video.png" />
+            <div class="w-full h-[110px] mt-6 bg-button rounded-none md:h-[520px]">
+                <img class="w-full h-full object-cover" src="./images/video.svg" />
             </div>
         </div>
     </section>
@@ -77,13 +86,13 @@
     <!-- Livestream -->
     <section id="livestream">
         <div class="w-full py-6 h-auto mt-16 md:p-32">
-            <h3 class="text-white text-center text-[60px] font-bold mb-12 md:mb-7 md:text-5xl drop-shadow-lg">Live Stream</h3>
+            <h3 class="text-white text-center text-[60px] md:text-[180px] font-bold mb-12 md:mb-7 drop-shadow-lg">Live Stream</h3>
             <div class="w-3/5 mx-auto md:w-full">
 
-                <div class="flex flex-col md:flex-row md:justify-center">
+                <div class="flex flex-col md:flex-row md:justify-center md:mt-12">
 
                     <!-- Livestream 1 -->
-                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-40 transform transition ease-out duration-500 border-2 border-primary md:w-4/12">
+                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-10 transform transition ease-out duration-500 border-2 border-primary md:w-4/12">
 
                         <!-- pst arome -->
                         <div class="flex w-3/4 justify-between items-start md:justify-start">
@@ -106,7 +115,7 @@
                     </div>
 
                     <!-- Livestream 2 -->
-                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-40 transform shadow-sm transition ease-out duration-500 border-2 border-primary md:w-4/12">
+                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-10 transform shadow-sm transition ease-out duration-500 border-2 border-primary md:w-4/12">
 
                         <!-- pst arome -->
                         <div class="flex w-3/4 justify-between items-start md:justify-start">
@@ -129,7 +138,7 @@
                     </div>
 
                     <!-- Livestream 3 -->
-                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-40 transform shadow-sm transition ease-out duration-500 border-2 border-primary md:w-4/12">
+                    <div class="flex items-center justify-between py-6 md:mx-2 bg-white rounded-lg h-auto w-full mt-6 pb-0 pl-0 pr-3 relative md:mt-10 transform shadow-sm transition ease-out duration-500 border-2 border-primary md:w-4/12">
 
                         <!-- pst arome -->
                         <div class="flex w-3/4 justify-between items-start md:justify-start">
@@ -159,9 +168,9 @@
 
     <!-- Senior Pastors -->
     <section id="senior-pastors" class="bg-[#EEFAFF] py-32">
-        <div class="flex flex-col w-3/4 mx-auto md:flex-row">
+        <div class="flex flex-col w-10/12 mx-auto md:flex-row">
 
-            <div class="flex flex-col w-1/2 text-center md:text-start">
+            <div class="flex flex-col w-full md:w-1/2 text-center md:text-start">
                 <p class="text-[28px] leading-[21px] font-bold md:text-[60px] md:leading-[60px]">Our Senior Pastors</p>
                 <p class="text-[16px] leading-[27px] mt-6">Our Church is led by Pastors Arome and Avese Tokula supported by a team of pastors and ministers who are committed to Chrsit Family Ministry's God-given mandate to fill the earth with beautiful message of our Lord Jesus</p>
 
@@ -170,41 +179,213 @@
                 </div>
             </div>
 
-            <div class="bg-[url('/images/pstaromeandpstavese.png')] bg-bottom bg-contain bg-no-repeat w-1/2">
+                <div class="bg-[url('/images/pstaromeandpstavese.png')] bg-bottom bg-contain bg-no-repeat w-full md:w-1/2">
                 <div class="h-72 bg-gradient-to-b from-transparent via-transparent to-[#EEFAFF] md:h-full">&nbsp;</div>
             </div>
         </div>
     </section>
 
     <!-- Relevant Church -->
-    <section id="senior-pastors" class="bg-[#EEFAFF] pt-0 pb-32">
-        <div class="w-3/4 mx-auto text-center">
-            <p class="text-center text-[28px] leading-[29px] font-bold">The Relevant Church</p>
-            <p class="my-2 text-[14px] leading-[28px] font-[400]">Pastor Arome's Vision for the future</p>
+    <section id="senior-pastors" class="bg-[#EEFAFF] pt-16 md:pt-28 pb-32">
+        <div class="w-10/12 mx-auto md:flex md:items-center">
+            <div class="md:w-5/12">
+                <p class="text-center text-[28px] leading-[29px] font-bold md:hidden">The Relevant Church</p>
+                <p class="hidden md:block text-start text-[60px] leading-[60px] font-bold">The Relevant <br/> Church</p>
+                <p class="text-center md:text-start my-2 text-[14px] leading-[28px] font-[400]">Pastor Arome's Vision for the future</p>
+            </div>
 
-            <div class="w-full h-auto mt-8">
-                <img class="w-full" src="./images/video2.png" />
+            <div class="w-full h-auto mt-8 md:w-7/12">
+                <img class="w-full md:rounded-[32px]" src="./images/video1.svg" />
             </div>
         </div>
     </section>
 
     <!-- Partnershipp -->
     <section id="partnership">
-        <div class="flex flex-col w-full bg-[#139FDD] md:pt-8">
-            <div class="flex flex-col w-11/12 md:flex-row-reverse md:justify-between md:px-8">
-                <div class="flex flex-col w-full md:w-1/2 md:text-end md:items-end md:py-11 md:space-y-8">
-                    <h3 class="text-white text-[28px] font-bold text-center px-11 pt-11  md:px-0 md:text-[60px]">Partnership</h3>
-                    <p class="text-base text-white p-8 text-center md:text-end md:p-0">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    </p>
+        <div class="bg-[#139FDD] w-full">
+            <div class="flex flex-col w-11/12 mx-auto md:pt-20">
+                <div class="flex flex-col w-11/12 md:flex-row-reverse md:justify-between md:px-8">
+                    <div class="flex flex-col w-full md:w-1/2 md:text-end md:items-end md:py-11 md:space-y-8">
+                        <h3 class="text-white text-[28px] font-bold text-center px-11 pt-11  md:px-0 md:text-[60px]">Partnership</h3>
+                        <p class="text-base text-white p-8 text-center md:text-end md:p-0">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
 
-                    <div class="flex justify-center items-center my-4 w-full md:justify-end">
-                        <a class="bg-red-600 px-6 py-6 rounded-lg text-white text-center w-3/4 text-[16px] leading-[16px] font-[600] md:w-2/4">Become a partner</a>
+                        <div class="flex justify-center items-center my-4 w-full md:justify-end">
+                            <a class="bg-red-600 cursor-pointer px-6 py-6 rounded-lg text-white text-center w-3/4 text-[16px] leading-[16px] font-[600] md:w-2/4">Become a partner</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-start w-full md:w-2/5 relative">
+                        <img class="w-full md:absolute md:bottom-0 md:left-10 md:w-[580px]" src='/images/partnership-woman.png' />
                     </div>
                 </div>
-                <div class="flex justify-start w-full md:w-2/5 relative">
-                    <img class="w-full md:absolute md:bottom-0 md:left-10 md:w-[580px]" src='/images/partnership-woman.png' />
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonies -->
+    <!-- <section id="testimonies">
+        <p class="text-[28px] font-bold">Testimonies</p>
+        <div class="bg-[#139FDD min-h-full]">
+            <div
+                id="carouselExampleCaptions"
+                class="relative"
+                data-te-carousel-init
+                data-te-carousel-slide>
+                <div
+                    class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                    data-te-carousel-indicators>
+                    <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions"
+                    data-te-slide-to="0"
+                    data-te-carousel-active
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                    <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions"
+                    data-te-slide-to="1"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 2"></button>
+                    <button
+                    type="button"
+                    data-te-target="#carouselExampleCaptions"
+                    data-te-slide-to="2"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 3"></button>
                 </div>
+                <div
+                    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                    <div
+                    class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-fade
+                    data-te-carousel-item
+                    data-te-carousel-active>
+                    <video class="w-full" autoplay loop muted>
+                        <source
+                        src="https://tecdn.b-cdn.net/img/video/Tropical.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <div
+                        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">First slide label</h5>
+                        <p>
+                        Some representative placeholder content for the first slide.
+                        </p>
+                    </div>
+                    </div>
+                    <div
+                    class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-fade
+                    data-te-carousel-item>
+                    <video class="w-full" autoplay loop muted>
+                        <source
+                        src="https://tecdn.b-cdn.net/img/video/forest.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <div
+                        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Second slide label</h5>
+                        <p>
+                        Some representative placeholder content for the second slide.
+                        </p>
+                    </div>
+                    </div>
+                    <div
+                    class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-fade
+                    data-te-carousel-item>
+                    <video class="w-full" autoplay loop muted>
+                        <source
+                        src="https://tecdn.b-cdn.net/img/video/Agua-natural.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <div
+                        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>
+                        Some representative placeholder content for the third slide.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <button
+                    class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button"
+                    data-te-target="#carouselExampleCaptions"
+                    data-te-slide="prev">
+                    <span class="inline-block h-8 w-8">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-6 w-6">
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                    </span>
+                    <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                    >Previous</span
+                    >
+                </button>
+                <button
+                    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button"
+                    data-te-target="#carouselExampleCaptions"
+                    data-te-slide="next">
+                    <span class="inline-block h-8 w-8">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-6 w-6">
+                        <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </span>
+                    <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                    >Next</span
+                    >
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Daily Scritpures -->
+    <section id="daily-scriptures" class="my-[84px]">
+        <div class="flex flex-col md:flex-row md:justify-between md:w-10/12 md:mx-auto">
+            <div class="flex flex-col items-center px-10 w-full md:w-4/12 md:justify-around md:text-start">
+                <div class="text-center md:text-start">
+                    <p class="text-[28px] font-bold w-full md:text-[60px] md:leading-[60px]">Get Daily Scriptures To Your Inbox</p>
+                    <p class="text-[16px] leading-[28px] w-full">It is a long established fact that a reader will be distracted by the readable content of a page</p>
+                </div>
+
+                <div class="flex justify-between items-center w-full bg-[#139FDD]/10 h-[60px] rounded-[8px] mt-12 md:mt-4">
+                    <input class="ml-4 outline-none w-8/12 bg-transparent h-full text-" placeholder="Your Email" />
+                    <div class="mr-4  w-[52px] h-[28px]">
+                        <button class="flex justify-center items-center bg-[#139FDD] rounded-[10px] w-full h-full">
+                            <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:flex w-8/12 justify-end">
+                <img class="rounded-[32px] justify-end" src="/images/2hugging.svg" />
             </div>
         </div>
     </section>
@@ -271,8 +452,15 @@
                     <img class="cursor-pointer w-5" src="/images/socials/yt.png" />
                     <img class="cursor-pointer w-5" src="/images/socials/telegram.png" />
                 </div>
-                <div class="flex justify-center">
-                    <p class="text-[12px]">2021 Christ Family Ministry</p>
+                <div class="flex justify-center w-full flex-col py-16 space-y-4">
+                    <p class="flex justify-center text-[12px] w-full">2021 Christ Family Ministry</p>
+                    <ul class="w-full justify-center mx-auto text-[12px] text-center inline-block">
+                        <li class="inline-block"><a href="#">Terms & Conditions |</a></li>
+                        <li class="inline-block"><a href="#">Privacy Statement |</a></li>
+                        <li class="inline-block"><a href="#">Contact Us |</a></li>
+                        <li class="inline-block"><a href="#">Disclaimer |</a></li>
+                        <li class="inline-block"><a href="#">Site Map</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
