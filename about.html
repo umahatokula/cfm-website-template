@@ -343,43 +343,172 @@
                 </div>
             </div>
         </section>
-        <!--Footer-->
-        <footer class="bg-secondary">
-            <!--Flex Container-->
-            <div class="container flex flex-col justify-between px-6 py-10 
-                mx-4 space-y-8 md:flex-row md:items-center"
-            >
-                <!--Logo and links-->  
-                <div class="flex flex-row justify-between align-middle items-center w-full space-x-12 space-y-12 md:flex-row md:justify-around md:space-y-0 md:space-x-12 md:items-start">
+
+        <!--Footer For Small Screens-->
+        <footer id="footer" class="bg-[#0A719E] w-full text-white md:hidden">
+            <!--Logo-->
+            <div class="p-6">
+                <div class="flex justify-start">
+                    <img src="/images/logo-footer.png" />
+                </div>
+                <!--About Container-->
+                <div class="mt-16">
+                    <div class="flex w-full">
+                        <div class="flex flex-col items-start text-start w-1/2">
+                            <p class="text-[12px] font-bold">About CFM</p>
+                            <ul class="text-[12px]">
+                                <li class="hover:bg-primary">Vision</li>
+                                <li class="hover:bg-primary">Mission</li>
+                                <li class="hover:bg-primary">Core Values</li>
+                                <li class="hover:bg-primary">History</li>
+                                <li class="hover:bg-primary">Our Senior Pastors</li>
+                            </ul>
+                        </div>
+                        <!--Centers Container-->
+                        <div class="flex flex-col items-end text-end w-1/2">
+                            <p class="text-[12px] font-bold">Centers</p>
+                            <ul class="text-[12px]">
+                                <li class="hover:bg-primary">Abuja</li>
+                                <li class="hover:bg-primary">Gboko</li>
+                                <li class="hover:bg-primary">Makurdi</li>
+                                <li class="hover:bg-primary">Kaduna</li>
+                                <li class="hover:bg-primary">Sagamu</li>
+                                <li class="hover:bg-primary">Abidjan</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Ministries Container-->
+                    <div class="border border-white/20 my-8"></div>
+                    <div class="flex w-full">
+                        <div class="flex flex-col items-start text-start w-1/2">
+                            <p class="text-[12px] font-bold">Ministries</p>
+                            <ul class="text-[12px]">
+                                <li class="hover:bg-primary">CFC</li>
+                                <li class="hover:bg-primary">Vine Life Fellowship</li>
+                                <li class="hover:bg-primary">WOMOC</li>
+                                <li class="hover:bg-primary">NCBI</li>
+                                <li class="hover:bg-primary">CFC Music</li>
+                                <li class="hover:bg-primary">CFC Kids</li>
+                                <li class="hover:bg-primary">Missions</li>
+                            </ul>
+                        </div>
+                        <!--Media Center Container-->
+                        <div class="flex flex-col items-end text-end w-1/2">
+                            <p class="text-[12px] font-bold">Media Center</p>
+                            <ul class="text-[12px]">
+                                <li class="hover:bg-primary">Blog</li>
+                                <li class="hover:bg-primary">Daily Devotional</li>
+                                <li class="hover:bg-primary">Sermons</li>
+                                <li class="hover:bg-primary">Higher Life Magazine</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Socials Stay Connected Container-->
+                    <div class="border border-white/20 my-8"></div>
+                    <p class="text-[14px] font-bold">Stay Connected</p>
+                    <div class="flex space-x-4 mt-5">
+                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/fb.png" />
+                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/twitter.png" />
+                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/ig.png" />
+                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/yt.png" />
+                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/telegram.png" />
+                    </div>
+                    <!--Privacy Container-->
+                    <div class="flex justify-center w-full flex-col py-16 space-y-4">
+                        <p class="flex justify-center text-[12px] w-full">2021 Christ Family Ministry</p>
+                        <ul class="w-full justify-center mx-auto text-[12px] text-center inline-block">
+                            <li class="inline-block hover:bg-primary"><a href="#">Terms & Conditions |</a></li>
+                            <li class="inline-block hover:bg-primary"><a href="#">Privacy Statement |</a></li>
+                            <li class="inline-block hover:bg-primary"><a href="#">Contact Us |</a></li>
+                            <li class="inline-block hover:bg-primary"><a href="#">Disclaimer |</a></li>
+                            <li class="inline-block hover:bg-primary"><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!--Footer For Large Screens-->
+        <footer id="footer" class="bg-[#0A719E] w-full text-white hidden md:flex">
+            <div class="p-6 md:px-32 w-full py-24">
+                
+                <div class="flex w-full items-start">
                     <!--Logo-->
-                    <div class="flex flex-col justify-start text-left">
-                        <div>
-                            <img src="images/logo-footer.png" alt="Christ Family Ministry Logo-White" class="h-8">
-                        </div>
-                        <!--About Menu-->
-                        <div class="flex flex-col space-y-3 text-white items-start text-left md:text-left">
-                            <h3 class="font-bold text-2xl text-white">About CFM</h3>
-                            <a href="#" class="hover:text-primary text-normal text-left">Vision</a>
-                            <a href="#" class="hover:text-primary text-normal text-left">Mission</a>
-                            <a href="#" class="hover:text-primary text-normal text-left">Core Values</a>
-                            <a href="#" class="hover:text-primary text-normal text-left">History</a>
-                            <a href="#" class="hover:text-primary text-normal text-left">Our senior pastors</a>
-                        </div>
-                        
+                    <div class="flex flex-col items-start text-start w-1/2 md:w-2/6 md:text-start">
+                        <img class="md:w-[157px] h-[38px]" src="/images/logo-footer.png" />
                     </div>
-                    
-                    <!--Centers Menu-->
-                    <div class="flex flex-col space-y-3 space-x-12 text-white items-end text-right md:text-left">
-                        <h3 class="font-bold text-2xl text-white">Centers</h3>
-                        <a href="#" class="hover:text-primary text-normal ">Abuja</a>
-                        <a href="#" class="hover:text-primary text-normal ">Gboko</a>
-                        <a href="#" class="hover:text-primary text-normal ">Makurdi</a>
-                        <a href="#" class="hover:text-primary text-normal ">Kaduna</a>
-                        <a href="#" class="hover:text-primary text-normal ">Sagamu</a>
-                        <a href="#" class="hover:text-primary text-normal ">Lagos</a>
-                        <a href="#" class="hover:text-primary text-normal ">Abijan</a>
+                    <!--About Container-->
+                    <div class="flex flex-col justisfy-start items-start text-start w-1/2 md:w-2/6 md:text-start md:items-start">
+                        <p class="text-[12px] font-bold md:text-[24px]">About CFM</p>
+                        <ul class="text-[12px] p-0 m-0 md:text-[16px]">
+                            <li class="hover:bg-primary">Vision</li>
+                            <li class="hover:bg-primary">Mission</li>
+                            <li class="hover:bg-primary">Core Values</li>
+                            <li class="hover:bg-primary">History</li>
+                            <li class="hover:bg-primary">Our Senior Pastors</li>
+                        </ul>
                     </div>
-                    
+                    <!--Centers Container-->
+                    <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
+                        <p class="text-[12px] font-bold md:text-[24px]">Centers</p>
+                        <ul class="text-[12px] md:text-[16px]">
+                            <li class="hover:bg-primary">Abuja</li>
+                            <li class="hover:bg-primary">Gboko</li>
+                            <li class="hover:bg-primary">Makurdi</li>
+                            <li class="hover:bg-primary">Kaduna</li>
+                            <li class="hover:bg-primary">Sagamu</li>
+                            <li class="hover:bg-primary">Abidjan</li>
+                        </ul>
+                    </div>
+    
+                    <div class="border border-white/20 my-8 md:hidden"></div>
+                    <!--Ministries Container-->
+                    <div class="flex flex-col justisfy-start items-start text-start w-1/2 md:w-2/6 md:text-start md:items-start">
+                        <p class="text-[12px] font-bold md:text-[24px]">Ministries</p>
+                        <ul class="text-[12px] md:text-[16px]">
+                            <li class="hover:bg-primary">CFC</li>
+                            <li class="hover:bg-primary">Vine Life Fellowship</li>
+                            <li class="hover:bg-primary">WOMOC</li>
+                            <li class="hover:bg-primary">NCBI</li>
+                            <li class="hover:bg-primary">CFC Music</li>
+                            <li class="hover:bg-primary">CFC Kids</li>
+                            <li class="hover:bg-primary">Missions</li>
+                        </ul>
+                    </div>
+                    <!--Media Center Container-->
+                    <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
+                        <p class="text-[12px] font-bold md:text-[24px]">Media Center</p>
+                        <ul class="text-[12px] md:text-[16px]">
+                            <li class="hover:bg-primary">Blog</li>
+                            <li class="hover:bg-primary">Daily Devotional</li>
+                            <li class="hover:bg-primary">Sermons</li>
+                            <li class="hover:bg-primary">Higher Life Magazine</li>
+                        </ul>
+                    </div>
+    
+                    <div class="border border-white/20 my-8 md:hidden"></div>
+                    <!--Socials & Stay Connected Container-->
+                    <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
+                        <p class="text-[14px] md:text-[16px] font-bold">Stay Connected</p>
+                        <div class="flex space-x-4 mt-5">
+                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/fb.png" />
+                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/twitter.png" />
+                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/ig.png" />
+                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/yt.png" />
+                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/telegram.png" />
+                        </div>
+                    </div>
+                </div>
+                <!--Privacy Container-->
+                <div class="flex justify-center w-full py-24 space-y-4">
+                    <ul class="w-full justify-center mx-auto text-[12px] text-center inline-block">
+                        <li class="inline-block "><a href="#">2021 Christ Family Ministry |</a></li>
+                        <li class="inline-block hover:bg-primary"><a href="#">Terms & Conditions |</a></li>
+                        <li class="inline-block hover:bg-primary"><a href="#">Privacy Statement |</a></li>
+                        <li class="inline-block hover:bg-primary"><a href="#">Contact Us |</a></li>
+                        <li class="inline-block hover:bg-primary"><a href="#">Disclaimer |</a></li>
+                        <li class="inline-block hover:bg-primary"><a href="#">Site Map</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>
