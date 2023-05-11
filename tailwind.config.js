@@ -15,6 +15,9 @@ module.exports = {
       backgroundImage: {
         'onChurchManyCenters': "url('/images/1church-banner.png')",
         'bg_image2': "url('../public/bg.svg')",
+        'visa': "url('/images/visa.png')",
+        'mastercard': "url('/images/mastercard.png')",
+        'pay': "url('/images/pay.png')",
       },
       colors: {
         'primary': '#47c6fd',
@@ -23,6 +26,8 @@ module.exports = {
         'button': '#ed2024',
         'background': '#eefaff',
         'background2': '#139fdd',
+        'form': '#C4C4C4',
+        'button': '#ED2024',
       },
     },
     borderRadius: {
