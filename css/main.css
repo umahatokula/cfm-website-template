@@ -692,6 +692,16 @@ video {
   margin-bottom: 59px;
 }
 
+.mx-\[104px\] {
+  margin-left: 104px;
+  margin-right: 104px;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -768,40 +778,20 @@ video {
   margin-right: 1rem;
 }
 
-.mt-\[67px\] {
-  margin-top: 67px;
-}
-
-.mt-\[59px\] {
-  margin-top: 59px;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
+.mt-\[27px\] {
+  margin-top: 27px;
 }
 
 .mb-\[39px\] {
   margin-bottom: 39px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[108px\] {
-  margin-top: 108px;
-}
-
-.mt-\[27px\] {
-  margin-top: 27px;
+.mb-\[131px\] {
+  margin-bottom: 131px;
 }
 
 .mt-\[66px\] {
   margin-top: 66px;
-}
-
-.mb-\[131px\] {
-  margin-bottom: 131px;
 }
 
 .box-content {
@@ -906,6 +896,10 @@ video {
 
 .h-3 {
   height: 0.75rem;
+}
+
+.h-\[446px\] {
+  height: 446px;
 }
 
 .max-h-full {
@@ -1013,24 +1007,12 @@ video {
   width: 300px;
 }
 
-.w-\[full\] {
-  width: full;
-}
-
-.w-\[156px\] {
-  width: 156px;
+.w-\[340px\] {
+  width: 340px;
 }
 
 .w-\[200px\] {
   width: 200px;
-}
-
-.w-\[175px\] {
-  width: 175px;
-}
-
-.w-\[180px\] {
-  width: 180px;
 }
 
 .max-w-md {
@@ -1099,10 +1081,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.items-baseline {
-  align-items: baseline;
 }
 
 .justify-start {
@@ -1201,12 +1179,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -1663,12 +1635,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.pt-\[82px\] {
+  padding-top: 82px;
+}
+
 .pb-64 {
   padding-bottom: 16rem;
 }
 
-.pb-\[67px\] {
-  padding-bottom: 67px;
+.pt-\[88px\] {
+  padding-top: 88px;
 }
 
 .text-left {
@@ -1689,10 +1665,6 @@ video {
 
 .-indent-\[999px\] {
   text-indent: -999px;
-}
-
-.align-baseline {
-  vertical-align: baseline;
 }
 
 .align-middle {
@@ -1837,22 +1809,6 @@ video {
 
 .leading-\[28px\] {
   line-height: 28px;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-tight {
-  line-height: 1.25;
 }
 
 .leading-none {
@@ -2162,36 +2118,32 @@ video {
     margin-left: auto;
   }
 
-  .md\:mb-\[53px\] {
-    margin-bottom: 53px;
-  }
-
   .md\:mt-\[108px\] {
     margin-top: 108px;
   }
 
-  .md\:mt-\[\] {
-    margin-top: ;
+  .md\:mb-\[53px\] {
+    margin-bottom: 53px;
   }
 
   .md\:mt-\[59px\] {
     margin-top: 59px;
   }
 
-  .md\:mt-\[122px\] {
-    margin-top: 122px;
-  }
-
   .md\:mb-\[184px\] {
     margin-bottom: 184px;
   }
 
-  .md\:mb-\[284px\] {
-    margin-bottom: 284px;
+  .md\:mt-\[122px\] {
+    margin-top: 122px;
   }
 
-  .md\:mb-\[384px\] {
-    margin-bottom: 384px;
+  .md\:mb-\[px\] {
+    margin-bottom: px;
+  }
+
+  .md\:mb-\[400px\] {
+    margin-bottom: 400px;
   }
 
   .md\:block {
@@ -2248,6 +2200,10 @@ video {
 
   .md\:h-\[520px\] {
     height: 520px;
+  }
+
+  .md\:h-\[880px\] {
+    height: 880px;
   }
 
   .md\:max-h-full {
@@ -2339,10 +2295,6 @@ video {
     width: 40%;
   }
 
-  .md\:w-\[500px\] {
-    width: 500px;
-  }
-
   .md\:w-\[262px\] {
     width: 262px;
   }
@@ -2385,10 +2337,6 @@ video {
 
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:items-baseline {
-    align-items: baseline;
   }
 
   .md\:items-stretch {
@@ -2605,12 +2553,8 @@ video {
     text-align: end;
   }
 
-  .md\:align-bottom {
-    vertical-align: bottom;
-  }
-
-  .md\:align-sub {
-    vertical-align: sub;
+  .md\:align-middle {
+    vertical-align: middle;
   }
 
   .md\:text-\[96px\] {
@@ -2665,6 +2609,10 @@ video {
     font-size: 4.5rem;
   }
 
+  .md\:text-2xl {
+    font-size: 1.563rem;
+  }
+
   .md\:leading-\[10px\] {
     line-height: 10px;
   }
@@ -2675,11 +2623,5 @@ video {
 
   .md\:leading-none {
     line-height: 1;
-  }
-
-  @media (min-width: 768px) {
-    .md\:md\:leading-none {
-      line-height: 1;
-    }
   }
 }
