@@ -1,5 +1,5 @@
 
-# Figma-to-Tailwind Template
+# Christ Family Website Template
 
 This template is for the Christ Family Website. It is done by converting a Figma design into a functional user interface using Tailwind CSS. 
 
