@@ -5,415 +5,315 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
-        <title>About Christ Family Ministry</title>
-    
+        <title>About | Christ Family Ministry</title>
+
         <!-- GOogle font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue&display=swap" rel="stylesheet">
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Russo+One&display=swap" rel="stylesheet">
-    
-        <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
-    
-    </head>
-    <body>
-        <!--Navbar-->
-        <nav class="flex relative p-2 mx-auto justify-between">
-            <!--Logo-->
-            <div class="justify-start w-max m-3">
-                <img src="images/logo.svg" alt="Christ Family Ministry logo"/>
-            </div>
-            <!--Handburger goes here-->
-            <div class="justify-end w-max m-3">
-                <svg id="burger" class="w-10 h-10 flex justify-end cursor-pointer md:w-h-16 md:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </div>
-        </nav>
-        <!--Hero Section-->
-            <!--Becoming All God Has Designed You To Be-->
-        <div class="bg-gradient-to-tr from-gray-800 to-gray-500 bg-opacity-5 relative bg-black h-96 w-full bg-cover bg-center">
-            <img src="images/bg5.png" alt="Worshipers dancing" class="absolute 
-            h-full w-full object-cover mix-blend-overlay"/>
 
-            <div class="text-center align-middle M-6 P-6 font-serif">
-                <h4 class="text-white font-bold text-5xl">BECOMING</h4>
-                <h4 class="text-white font-bold text-5xl">ALL GOD</h4>
-                <h4 class="text-white font-bold text-5xl">HAS</h4>
-                <h4 class="text-white font-bold text-5xl">DESIGNED</h4>
-                <h4 class="text-white font-bold text-5xl">YOU TO BE</h4>
+        <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+
+    </head>
+    <body >
+        <!-- Menu -->
+        <div class="h-44 w-full rounded-b-medium hidden bg-primary bg-opacity-90 text-white absolute top-0 left-0 transition ease-in duration-1000 z-50" id="menu">
+            <div class="flex justify-between items-center py-3 w-11/12 mx-auto md:py-10">
+                <p class="flex-grow text-center font-semibold text-xl">MENU</p>
+                <svg id="closeMenu" class="w-10 h-10 flex justify-end cursor-pointer md:w-h-16 md:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </div>
+            <div class="grid grid-cols-3 w-3/4 mx-auto text-center">
+                <a href=""#>Home</a>
+                <a href=""#>Home</a>
+                <a href=""#>Home</a>
             </div>
         </div>
-        <!--Vision & Mission-->
-        <section id="hero">
-            <!--Flex container for MIssion and Vision-->
-            <div 
-                class="flex flex-col items-center px-6 mx-auto mt-10 space-y-0
-                md:flex-col md:space-y-0 p-6"
-            >
-            <!--Our Mission-->    
-                <div class="container flex flex-col mb-32 w-full items-center space-y-6 mx-auto md:w-fit md:flex-row md:justify-between md:space-y-0 md:space-x-12">
-                    <div class="flex flex-col md:flex-col md:justify-start">
-                        <!--Our Mission Title-->
-                        <h4 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                            Our Mission
-                        </h4>
-                        <!--Our Mission Content-->
-                        <p class="max-w-sm text-center md:text-left">
-                            It is a long established fact that a reader will be distracted by 
-                            the readable content of a page when looking at its layout. 
-                            The point of using Lorem Ipsum is that it has a more-or-less normal 
-                            distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            It is a long established fact that a reader will be 
-                            distracted by the readable content of a page when 
-                            looking at its layout. The point of using Lorem Ipsum is 
-                            that it has a more-or-less normal distribution of letters, 
-                            as opposed to using 'Content here, content here', making it 
-                            look like readable English.
-                        </p>
-                    </div>
-                    <!--Image Attached to Mission Statement-->
-                    <div class="flex justify-center md:w-1/2 md:justify-end">
-                        <img src="images/mission.png" alt="Two believers hugging each other in Church" 
-                                class="rounded-lg "
-                        />
-                    </div>
 
+        <!-- Navbar -->
+        <div class="flex justify-between h-15 items-center py-3 w-11/12 mx-auto md:h-24">
+
+            <!-- Logo -->
+            <a href="#"><img src="./images/logo.svg" class="w-28 md:w-44"></a>
+
+            <!-- Menu -->
+            <svg id="burger" class="w-10 h-10 flex justify-end cursor-pointer md:w-h-16 md:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </div>
+
+        <!--CTA-->
+        <section id="" class="mb-20">
+            <!--Home bg and writeup -->
+            <section class="bg-center bg-cover bg-no-repeat bg-about_bg bg-gray-700 bg-blend-multiply rounded-b-medium md:rounded-none">
+                <div class="px-4 mx-auto max-w-screen-xl text-center py-24">
+                    <h1 class="mb-4 text-[38px] font-serif font-normal tracking-wide leading-relaxed text-white md:text-[100px] md:leading-[1.2]">
+                        BECOMING <br>ALL GOD <br>HAS <br>DESIGNED <br>YOU TO BE
+                    </h1>
                 </div>
-                <!--Our Vision-->
-                <div class="container flex flex-col mb-32 w-full items-center space-y-6 mx-auto md:w-fit md:flex-row-reverse md:justify-between md:space-y-0 md:space-x-12">
-                    <div class="flex flex-col md:flex-col md:justify-start">
-                        <!--Our Vision Title-->
-                        <h4 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                            Our Vision
-                        </h4>
-                        <!--Our Vision Content-->
-                        <p class="max-w-sm text-center md:text-left">
-                            It is a long established fact that a reader will be distracted by 
-                            the readable content of a page when looking at its layout. 
-                            The point of using Lorem Ipsum is that it has a more-or-less normal 
-                            distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            It is a long established fact that a reader will be 
-                            distracted by the readable content of a page when 
-                            looking at its layout. The point of using Lorem Ipsum is 
-                            that it has a more-or-less normal distribution of letters, 
-                            as opposed to using 'Content here, content here', making it 
-                            look like readable English.
-                        </p>
-                    </div>
-                    <!--Image Attached to Vision Statement-->
-                    <div class="flex justify-center md:w-1/2 md:justify-end">
-                        <img src="images/mission.png" alt="Two believers hugging each other in Church" 
-                                class="rounded-lg "
-                        />
-                    </div>
+            </section>
 
+            <!-- Our Mission -->
+            <section class="my-[55px] md:[117px]">
+                <div class="flex flex-col max-w-screen-xl px-4 py-8 mx-auto md:grid md:gap-8 xl:gap-0 md:py-16 md:grid-cols-12">
+                    <div class="mr-auto place-self-center mb-10 md:mb-0  lg:col-span-7">
+                        <h1 class="max-w-2xl text-center text-black mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-left md:text-5xl xl:text-6xl">Our Mission</h1>
+                        <p class="max-w-2xl mb-6 font-light text-center text-black md:text-left lg:mb-8 md:text-lg lg:text-xl">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+                        
+                    </div>
+                    <div class=" mt-0 col-span-5 flex">
+                        <img src="images/2hugging.svg" alt="Our Vision" class="rounded-[24px]">
+                    </div>                
                 </div>
-            </div>
-        </section>
-        <section id="features">
-            <!--About Section on Blue-->
-            <div class="flex flex-col bg-background2 text-white items-center  mx-auto 
-                mt-12 space-y-12 md:items-center md:space-y-0 md:flex-col"
-            >
-                <!--About CFM-->
-                <div class="container flex flex-col px-4 mt-10 mb-20 w-full items-center 
-                    space-y-12 md:space-y-0 md:flex-col"
-                >
-                    <!--About CFM Title-->
-                    <div class="pt-10">
-                        <h5 class="text-white text-4xl font-bold md:text-5xl">
-                            About CFM
-                        </h5>
-                    </div>
-                    <!--About CFM Writeup-->
-                    <div class="pt-5">
-                        <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English..
-                        </p>
+            </section>
+
+            <!-- Our Vision -->
+            <section class="my-[49px] md:[87px]">
+                <div class="flex flex-col-reverse max-w-screen-xl px-4 py-8 mx-auto md:grid md:gap-8 xl:gap-0 md:py-16 md:grid-cols-12">
+                    <div class="mt-0 col-span-5 md:flex">
+                        <img src="images/2hugging.svg" alt="Our Vision" class="rounded-[24px]">
                     </div>
 
-                    <!--What We Believe Title-->
-                    <div class="pt-10">
-                        <h5 class="text-white text-3xl font-bold md:text-5xl">
-                            What We Believe
-                        </h5>
-                    </div>
-                    <!--What We Believe Writeup-->
-                    <div class="pt-5">
-                        <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English..
+                    <div class="ml-auto place-self-center mb-10 md:mb-0 lg:col-span-7">
+                        <h1 class="max-w-2xl text-center text-black mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-left md:text-5xl xl:text-6xl">Our Vision</h1>
+                        <p class="max-w-2xl mb-6 font-light text-center text-black md:text-left lg:mb-8 md:text-lg lg:text-xl">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                         </p>
-                    </div>
+                    </div>                
                 </div>
-                <!--What We Believe Grid-->
-                <div class="relative md:grid md:grid-rows-2 md:grid-flow-col md:gap-4">
-                    <!--The Bible-->
-                    <div class="flex flex-col px-4 mt-10 mb-24 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                             object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-8 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">The Bible</h4>
-                        </div>
+            </section>
 
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
+            <!-- About/Values section -->
+            <section class="bg-background2">
+
+                <!-- About CFM -->
+                <section class="pt-[46px] md:pt-[98px]">
+                    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                        <div class="mx-auto w-full text-center">
+                            <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-white">About CFM</h2>
+                            <p class="mb-6 w-full font-light text-center text-white md:text-left md:text-lg">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English..
                             </p>
                         </div>
                     </div>
+                </section>
+
+                <!-- What we believe -->
+                <section>
+                    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                        <div class="mx-auto w-full text-center">
+                            <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-white">What We Believe</h2>
+                            <p class="mb-6 w-full font-light text-center text-white md:text-left md:text-lg">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Grid -->
+                <section class="pb-[188px] md:pb-[246px]">
+                    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                        
+                        <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">The Bible</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">The Trinity</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">Salvation</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">Water Baptism</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">Communion</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center">
+                                <div class="flex justify-center items-center mb-4 w-56 h-56 bg-cover bg-theBible rounded-full">
+                                    <h1 class="text-white">Growing Relationship</h1>
+                                </div>
+                                <p class="text-white text-center">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- Values -->
+            <section>
+                <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                    <!-- Title -->
+                    <h3 class="mb-8 text-5xl font-bold md:font-extrabold md:mb-20">Our Core  Values</h3>
                     
+                    <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 md:max-w-screen-xl sm:grid-cols-3">
+                        <!-- Row 1 -->
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="relative p-4 rounded-lg md:p-8">
+                                <!-- Love -->
+                                <div class="mb-14 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">LOVE</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
 
-                   <!--The Trinity-->
-                   <div class="flex flex-col px-4 mt-10 mb-32 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                                object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-8 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">The Trinity</h4>
+                                <!-- Commitment -->
+                                <div class="mb-14 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">COMMITMENT</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
+
+                                <!-- Excellence -->
+                                <div class="mb-4 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">EXCELLENCE</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
+                                
+                            </div>
                         </div>
 
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!--Salvation-->
-                   <div class="flex flex-col px-4 mt-10 mb-32 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                                object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-8 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">Salvation</h4>
+                        <!-- Image -->
+                        <div class="flex flex-col items-center justify-center w-full">
+                            <img src="images/salvation.svg" alt="" class="h-full w-full rounded-full">
                         </div>
 
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                        </div>
-                    </div>
+                        <!-- Row 2 -->
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="relative p-4 rounded-lg md:p-8">
+                                <!-- Love -->
+                                <div class="mb-14 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">FAITHFULNESS</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
 
-                    <!--Water Baptism-->
-                   <div class="flex flex-col px-4 mt-10 mb-32 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                                object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-8 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">Water Baptism</h4>
-                        </div>
+                                <!-- Commitment -->
+                                <div class="mb-14 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">EXCELLENCE</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
 
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
+                                <!-- Excellence -->
+                                <div class="mb-4 text-sm font-light text-black">
+                                    <h3 class="mb-2 text-2xl font-bold">EXCELLENCE</h3>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    </p>
+                                </div>
+                                
+                            </div>
                         </div>
-                    </div>
-
-                    <!--Communion-->
-                   <div class="flex flex-col px-4 mt-10 mb-32 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                                object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-8 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">Communion</h4>
-                        </div>
-
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!--Growing Relationship-->
-                   <div class="flex flex-col px-4 mt-10 mb-32 items-center 
-                        space-y-12 justify-between md:space-y-0 md:flex-col"
-                    >
-                        <img src="images/elipse.png" alt="The Bible" 
-                            class="bg-primary rounded-full bg-cover bg-center w-52 absolute 
-                                object-cover mix-blend-overlay"
-                        >
-                        <div class="text-center align-middle M-12 mb-12 pt-4 P-6 font-serif md:pt-20">
-                            <h4 class="text-white font-bold text-2xl">Growing <br>Relationship</br></h4>
-                        </div>
-
-                        <div class="pt-20 md:pt-24">
-                            <p class="text-white text-center max-w-sm text-sm md:max-w-lg md:text-center">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                        </div>
-                    </div>
+                    </dl>
                 </div>
-            </div>
-        </section>
-        <!--Core Values Section-->
-        <section id="pre-Footer">
-            <!--Core Values-->
-            <h4 class="relative flex flex-col pt-36 font-bold text-center text-4xl md:text-center md:text-5xl">Our Core Values</h4> 
-            
-            <!--Menu for Values-->
-            <div class="relative flex flex-col bg-white text-black mb-32 p-6
-                space-y-0 w-max-md mx-auto m-6 md:w-max-sm md:text-center md:items-center md:justify-between md:p-12 md:flex-row md:space-y-0"
-            >
-                <!--Love and Commitment-->   
-                <div class="flex flex-col text-end mx-auto">
-                    <!--Love-->
-                    <div class="flex flex-col text-black md:text-end">
-                        <!--Heading-->
-                        <div class="font-normal text-4xl text-center md:text-end pt-12">
-                            <h4>LOVE</h4>
-                        </div>
+            </section>
 
-                        <!--Love Content-->
-                        <div class="font-normal text-center md:text-end pt-5">
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                        </div>
-                    </div>
-
-                    <!--Commitment-->
-                    <div class="flex flex-col text-black md:text-end pt-24">
-                        <!--Heading-->
-                        <div class="font-normal text-4xl text-center md:text-end pt-6">
-                            <h4>COMMITMENT</h4>
-                        </div>
-
-                        <!--Commitment Content-->
-                        <div class="font-normal text-center md:text-end pt-5">
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Middle-Image-->
-                <div class="pt-24">
-                    <img src="images/mission.png" alt="Image of Believers hugging in worship at Church" 
-                     class="rounded-full rounded-br-full text-center items-center max-w-md w-full h-full mx-auto m-12 md:p-6"
-                    >
-                </div>
-
-                <!--Faithfulness and Excellence-->   
-                <div class="flex flex-col text-end mx-auto">
-                    <!--Faithfulness-->
-                    <div class="flex flex-col text-black md:text-end">
-                        <!--Heading-->
-                        <div class="font-normal text-4xl text-center md:text-end pt-12">
-                            <h4>FAITHFULNESS</h4>
-                        </div>
-
-                        <!--Faithfulness Content-->
-                        <div class="font-normal text-center md:text-end pt-5">
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                        </div>
-                    </div>
-
-                    <!--Excellence-->
-                    <div class="flex flex-col text-black md:text-end pt-24">
-                        <!--Heading-->
-                        <div class="font-normal text-4xl text-center md:text-end pt-6">
-                            <h4>EXCELLENCE</h4>
-                        </div>
-
-                        <!--Excellence Content-->
-                        <div class="font-normal text-center md:text-end pt-5">
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
-        <!--Footer For Small Screens-->
         <footer id="footer" class="bg-[#0A719E] w-full text-white md:hidden">
-            <!--Logo-->
             <div class="p-6">
                 <div class="flex justify-start">
                     <img src="/images/logo-footer.png" />
                 </div>
-                <!--About Container-->
                 <div class="mt-16">
                     <div class="flex w-full">
                         <div class="flex flex-col items-start text-start w-1/2">
                             <p class="text-[12px] font-bold">About CFM</p>
                             <ul class="text-[12px]">
-                                <li class="hover:bg-primary">Vision</li>
-                                <li class="hover:bg-primary">Mission</li>
-                                <li class="hover:bg-primary">Core Values</li>
-                                <li class="hover:bg-primary">History</li>
-                                <li class="hover:bg-primary">Our Senior Pastors</li>
+                                <li class="hover:text-primary">Vision</li>
+                                <li class="hover:text-primary">Mission</li>
+                                <li class="hover:text-primary">Core Values</li>
+                                <li class="hover:text-primary">History</li>
+                                <li class="hover:text-primary">Our Senior Pastors</li>
                             </ul>
                         </div>
-                        <!--Centers Container-->
                         <div class="flex flex-col items-end text-end w-1/2">
                             <p class="text-[12px] font-bold">Centers</p>
                             <ul class="text-[12px]">
-                                <li class="hover:bg-primary">Abuja</li>
-                                <li class="hover:bg-primary">Gboko</li>
-                                <li class="hover:bg-primary">Makurdi</li>
-                                <li class="hover:bg-primary">Kaduna</li>
-                                <li class="hover:bg-primary">Sagamu</li>
-                                <li class="hover:bg-primary">Abidjan</li>
+                                <li class="hover:text-primary">Abuja</li>
+                                <li class="hover:text-primary">Gboko</li>
+                                <li class="hover:text-primary">Makurdi</li>
+                                <li class="hover:text-primary">Kaduna</li>
+                                <li class="hover:text-primary">Sagamu</li>
+                                <li class="hover:text-primary">Abidjan</li>
                             </ul>
                         </div>
                     </div>
-                    <!--Ministries Container-->
                     <div class="border border-white/20 my-8"></div>
                     <div class="flex w-full">
                         <div class="flex flex-col items-start text-start w-1/2">
                             <p class="text-[12px] font-bold">Ministries</p>
                             <ul class="text-[12px]">
-                                <li class="hover:bg-primary">CFC</li>
-                                <li class="hover:bg-primary">Vine Life Fellowship</li>
-                                <li class="hover:bg-primary">WOMOC</li>
-                                <li class="hover:bg-primary">NCBI</li>
-                                <li class="hover:bg-primary">CFC Music</li>
-                                <li class="hover:bg-primary">CFC Kids</li>
-                                <li class="hover:bg-primary">Missions</li>
+                                <li class="hover:text-primary">CFC</li>
+                                <li class="hover:text-primary">Vine Life Fellowship</li>
+                                <li class="hover:text-primary">WOMOC</li>
+                                <li class="hover:text-primary">NCBI</li>
+                                <li class="hover:text-primary">CFC Music</li>
+                                <li class="hover:text-primary">CFC Kids</li>
+                                <li class="hover:text-primary">Missions</li>
                             </ul>
                         </div>
-                        <!--Media Center Container-->
                         <div class="flex flex-col items-end text-end w-1/2">
                             <p class="text-[12px] font-bold">Media Center</p>
                             <ul class="text-[12px]">
-                                <li class="hover:bg-primary">Blog</li>
-                                <li class="hover:bg-primary">Daily Devotional</li>
-                                <li class="hover:bg-primary">Sermons</li>
-                                <li class="hover:bg-primary">Higher Life Magazine</li>
+                                <li class="hover:text-primary">Blog</li>
+                                <li class="hover:text-primary">Daily Devotional</li>
+                                <li class="hover:text-primary">Sermons</li>
+                                <li class="hover:text-primary">Higher Life Magazine</li>
                             </ul>
                         </div>
                     </div>
-                    <!--Socials Stay Connected Container-->
                     <div class="border border-white/20 my-8"></div>
                     <p class="text-[14px] font-bold">Stay Connected</p>
                     <div class="flex space-x-4 mt-5">
-                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/fb.png" />
-                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/twitter.png" />
-                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/ig.png" />
-                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/yt.png" />
-                        <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/telegram.png" />
+                        <img class="cursor-pointer w-5" src="/images/socials/fb.png" />
+                        <img class="cursor-pointer w-5" src="/images/socials/twitter.png" />
+                        <img class="cursor-pointer w-5" src="/images/socials/ig.png" />
+                        <img class="cursor-pointer w-5" src="/images/socials/yt.png" />
+                        <img class="cursor-pointer w-5" src="/images/socials/telegram.png" />
                     </div>
-                    <!--Privacy Container-->
                     <div class="flex justify-center w-full flex-col py-16 space-y-4">
                         <p class="flex justify-center text-[12px] w-full">2021 Christ Family Ministry</p>
                         <ul class="w-full justify-center mx-auto text-[12px] text-center inline-block">
@@ -427,79 +327,78 @@
                 </div>
             </div>
         </footer>
-    
-        <!--Footer For Large Screens-->
+
+        
         <footer id="footer" class="bg-[#0A719E] w-full text-white hidden md:flex">
             <div class="p-6 md:px-32 w-full py-24">
                 
                 <div class="flex w-full items-start">
-                    <!--Logo-->
+
                     <div class="flex flex-col items-start text-start w-1/2 md:w-2/6 md:text-start">
                         <img class="md:w-[157px] h-[38px]" src="/images/logo-footer.png" />
                     </div>
-                    <!--About Container-->
+
                     <div class="flex flex-col justisfy-start items-start text-start w-1/2 md:w-2/6 md:text-start md:items-start">
                         <p class="text-[12px] font-bold md:text-[24px]">About CFM</p>
                         <ul class="text-[12px] p-0 m-0 md:text-[16px]">
-                            <li class="hover:bg-primary">Vision</li>
-                            <li class="hover:bg-primary">Mission</li>
-                            <li class="hover:bg-primary">Core Values</li>
-                            <li class="hover:bg-primary">History</li>
-                            <li class="hover:bg-primary">Our Senior Pastors</li>
+                            <li class="hover:text-primary">Vision</li>
+                            <li class="hover:text-primary">Mission</li>
+                            <li class="hover:text-primary">Core Values</li>
+                            <li class="hover:text-primary">History</li>
+                            <li class="hover:text-primary">Our Senior Pastors</li>
                         </ul>
                     </div>
-                    <!--Centers Container-->
+
                     <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
                         <p class="text-[12px] font-bold md:text-[24px]">Centers</p>
                         <ul class="text-[12px] md:text-[16px]">
-                            <li class="hover:bg-primary">Abuja</li>
-                            <li class="hover:bg-primary">Gboko</li>
-                            <li class="hover:bg-primary">Makurdi</li>
-                            <li class="hover:bg-primary">Kaduna</li>
-                            <li class="hover:bg-primary">Sagamu</li>
-                            <li class="hover:bg-primary">Abidjan</li>
+                            <li class="hover:text-primary">Abuja</li>
+                            <li class="hover:text-primary">Gboko</li>
+                            <li class="hover:text-primary">Makurdi</li>
+                            <li class="hover:text-primary">Kaduna</li>
+                            <li class="hover:text-primary">Sagamu</li>
+                            <li class="hover:text-primary">Abidjan</li>
                         </ul>
                     </div>
-    
+
                     <div class="border border-white/20 my-8 md:hidden"></div>
-                    <!--Ministries Container-->
+
                     <div class="flex flex-col justisfy-start items-start text-start w-1/2 md:w-2/6 md:text-start md:items-start">
                         <p class="text-[12px] font-bold md:text-[24px]">Ministries</p>
                         <ul class="text-[12px] md:text-[16px]">
-                            <li class="hover:bg-primary">CFC</li>
-                            <li class="hover:bg-primary">Vine Life Fellowship</li>
-                            <li class="hover:bg-primary">WOMOC</li>
-                            <li class="hover:bg-primary">NCBI</li>
-                            <li class="hover:bg-primary">CFC Music</li>
-                            <li class="hover:bg-primary">CFC Kids</li>
-                            <li class="hover:bg-primary">Missions</li>
+                            <li class="hover:text-primary">CFC</li>
+                            <li class="hover:text-primary">Vine Life Fellowship</li>
+                            <li class="hover:text-primary">WOMOC</li>
+                            <li class="hover:text-primary">NCBI</li>
+                            <li class="hover:text-primary">CFC Music</li>
+                            <li class="hover:text-primary">CFC Kids</li>
+                            <li class="hover:text-primary">Missions</li>
                         </ul>
                     </div>
-                    <!--Media Center Container-->
+
                     <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
                         <p class="text-[12px] font-bold md:text-[24px]">Media Center</p>
                         <ul class="text-[12px] md:text-[16px]">
-                            <li class="hover:bg-primary">Blog</li>
-                            <li class="hover:bg-primary">Daily Devotional</li>
-                            <li class="hover:bg-primary">Sermons</li>
-                            <li class="hover:bg-primary">Higher Life Magazine</li>
+                            <li class="hover:text-primary">Blog</li>
+                            <li class="hover:text-primary">Daily Devotional</li>
+                            <li class="hover:text-primary">Sermons</li>
+                            <li class="hover:text-primary">Higher Life Magazine</li>
                         </ul>
                     </div>
-    
+
                     <div class="border border-white/20 my-8 md:hidden"></div>
-                    <!--Socials & Stay Connected Container-->
+
                     <div class="flex flex-col justisfy-start items-end text-end w-1/2 md:w-2/6 md:text-start md:items-start">
                         <p class="text-[14px] md:text-[16px] font-bold">Stay Connected</p>
                         <div class="flex space-x-4 mt-5">
-                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/fb.png" />
-                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/twitter.png" />
-                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/ig.png" />
-                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/yt.png" />
-                            <img class="cursor-pointer w-5 hover:bg-primary" src="/images/socials/telegram.png" />
+                            <img class="cursor-pointer w-5" src="/images/socials/fb.png" />
+                            <img class="cursor-pointer w-5" src="/images/socials/twitter.png" />
+                            <img class="cursor-pointer w-5" src="/images/socials/ig.png" />
+                            <img class="cursor-pointer w-5" src="/images/socials/yt.png" />
+                            <img class="cursor-pointer w-5" src="/images/socials/telegram.png" />
                         </div>
                     </div>
                 </div>
-                <!--Privacy Container-->
                 <div class="flex justify-center w-full py-24 space-y-4">
                     <ul class="w-full justify-center mx-auto text-[12px] text-center inline-block">
                         <li class="inline-block "><a href="#">2021 Christ Family Ministry |</a></li>
@@ -513,5 +412,7 @@
             </div>
         </footer>
 
+        <script src="./assets/js/index.js"></script>
+        <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+
     </body>
-</html>

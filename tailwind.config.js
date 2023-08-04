@@ -3,7 +3,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ["./*.html"],
+  content: [
+    "./*.html", 
+    "./pages/**/*.{html,js}",
+  ],
+
   theme: {
     screen: {
       sm: "480px",
@@ -15,6 +19,9 @@ module.exports = {
       backgroundImage: {
         'onChurchManyCenters': "url('/images/1church-banner.png')",
         'bg_image2': "url('../public/bg.svg')",
+        'about_bg': "url('/images/bg5.png')",
+        'theBible': "url('/images/the-bible.svg')",
+        'hug': "url('/images/2hugging.svg')",
       },
       colors: {
         'primary': '#47c6fd',
