@@ -20,6 +20,7 @@ module.exports = {
         'onChurchManyCenters': "url('/images/1church-banner.png')",
         'bg_image2': "url('../public/bg.svg')",
         'about_bg': "url('/images/bg5.png')",
+        'centers_bg': "url('/images/centers.png')",
         'theBible': "url('/images/the-bible.svg')",
         'hug': "url('/images/2hugging.svg')",
       },
