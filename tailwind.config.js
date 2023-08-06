@@ -22,6 +22,8 @@ module.exports = {
         'about_bg': "url('/images/bg5.png')",
         'centers_bg': "url('/images/centers.png')",
         'theBible': "url('/images/the-bible.svg')",
+        'leadership_bg': "url('/images/leadership.svg')",
+        'give_bg': "url('/images/give.svg')",
         'hug': "url('/images/2hugging.svg')",
       },
       colors: {
