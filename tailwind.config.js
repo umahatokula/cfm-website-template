@@ -24,6 +24,7 @@ module.exports = {
         'theBible': "url('/images/the-bible.svg')",
         'leadership_bg': "url('/images/leadership.svg')",
         'give_bg': "url('/images/give.svg')",
+        'partner_bg': "url('/images/partnership.svg')",
         'hug': "url('/images/2hugging.svg')",
       },
       colors: {
